@@ -1,0 +1,33 @@
+@import url(_reset.css);
+@import url(_styles.css);
+@import url(botao.css);
+@import url(cabecalho.css);
+@import url(form-input.css);
+@import url(rodape.css);
+
+.body-login {
+    background-image: url(../img/Patas.svg), url(../img/Forma\ 1.svg), url(../img/Forma\ 3.svg);
+    background-position: 100% 0%, 0% 0%, 0% 75%;
+    background-repeat: no-repeat;
+}
+
+.form {
+    align-items: center;
+    color: var(--cinza);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 215px);
+    text-align: center;
+}
+
+.form__texto {
+    padding-bottom: 1rem;
+}
+
+.esqueci {
+    color: var(--coral);
+    font-size: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    text-decoration: underline;
+}

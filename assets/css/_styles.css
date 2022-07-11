@@ -1,0 +1,32 @@
+:root {
+    --azul: #3772FF;
+    --verde: #36D6AD;
+    --coral: #FC7071;
+    --creme: #FCF0E3;
+    --cinza: #737380;
+    --cinza-claro: #e4e3e3;
+    --cinza-claro2: #f7f7f7c4;
+
+    --familia-corpo: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--familia-corpo);
+    background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg);
+    background-position: 0% 0%, 100% 40%;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+p {
+    color: var(--azul);
+}
+
+.form__logo {
+    width: 40%;
+    margin: 2rem auto;
+}

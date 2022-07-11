@@ -1,0 +1,74 @@
+@import url(_reset.css);
+@import url(_styles.css);
+@import url(botao.css);
+@import url(cabecalho.css);
+@import url(form-input.css);
+@import url(rodape.css);
+
+.body-pets {
+    background-image: url(../img/Forma\ 1.svg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__perfil-item {
+    align-items: center;
+    display: block;
+    width: 80%;
+}
+
+.catalogo__pets {
+    align-items: center;
+    background-color: var(--cinza-claro);
+    display: grid;
+    grid-template-areas: 
+    'foto_pet nome'
+    'foto_pet dados'
+    'foto_pet cidade'
+    'foto_pet contato';
+    justify-content: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: var(--cinza);
+}
+
+.catalogo__foto {
+    grid-area: foto_pet;
+    width: 80%;
+}
+
+.catalogo__nome {
+    font-weight: bold;
+    grid-area: nome;
+}
+
+.catalogo__dados {
+    grid-area: dados;
+    list-style-type: none;
+    font-size: .8rem;
+    padding: .7rem 0 1.5rem 0;
+}
+
+.catalogo__cidade {
+    grid-area: cidade;
+    font-size: .8rem;
+    color: var(--cinza);
+}
+
+.catalogo__contato {
+    display: flex;
+    grid-area: contato;
+    font-size: .7rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--cinza);
+}
+
+.catalogo__contato img {
+    padding: .2rem .2rem .2rem 0;
+}
+
+.catalogo__texto {
+    text-align: center;
+    padding: 3rem 0 2rem 0;
+}
