@@ -3,7 +3,7 @@ input {
     border-radius: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
     width: 80%;
-    height: 5%;
+    height: 5.5%;
     padding: 0 1rem;
 }
 
@@ -16,6 +16,6 @@ input::placeholder {
     color: var(--cinza);
     font-family: var(--familia-corpo);
     font-size: .8rem;
-    text-align: center;
-    width: 200px;
+    text-align: center; 
+    width: auto;
 }
