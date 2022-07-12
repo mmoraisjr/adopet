@@ -8,9 +8,9 @@
 
     .body-home {
         background-color: var(--azul);
-        /* background-image: url(../img/Forma\ 2.svg);
-        background-position: right center;
-        background-repeat: no-repeat; */
+        background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg), url(../img/Ilustração\ 1.svg);
+        background-position: 0% 0%, 100% 40%, 30% 87%;
+        background-repeat: no-repeat;
     }
 
     .principal {

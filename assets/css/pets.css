@@ -19,7 +19,7 @@
 
 .catalogo__pets {
     align-items: center;
-    background-color: var(--cinza-claro);
+    background-color: #e4e3e313;
     display: grid;
     grid-template-areas: 
     'foto_pet nome'

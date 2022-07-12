@@ -2,7 +2,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* margin-top: 8rem; */
 }
 
 .botao {
@@ -10,8 +9,9 @@
     border-radius: 5px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
     color: var(--cinza-claro2);
-    padding: .7rem;
-    width: 200px;
+    font-weight: bold;
+    padding: .5rem;
+    width: 185px;
     margin-top: 1rem;
     text-align: center;
 }

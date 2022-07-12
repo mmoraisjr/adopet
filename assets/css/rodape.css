@@ -1,6 +1,5 @@
 .rodape {
     background-color: var(--verde);
-    color: white;
     display: flex;
     flex-direction: column;
     font-size: .9rem;
