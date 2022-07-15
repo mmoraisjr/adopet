@@ -30,3 +30,11 @@ p {
     width: 40%;
     margin: 2rem auto;
 }
+
+.sublinhado_coral {
+    color: var(--coral);
+    font-size: .8rem;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    text-decoration: underline;
+}

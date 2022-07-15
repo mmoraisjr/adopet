@@ -4,8 +4,9 @@
 @import url(cabecalho.css);
 @import url(form-input.css);
 @import url(rodape.css);
+@import url();
 
-.body-contato {
+.body-perfil {
     background-image: url(../img/Forma\ 1.svg);
     background-position: 0% 0%;
     background-repeat: no-repeat;
@@ -14,14 +15,14 @@
 .cabecalho__perfil-item {
     align-items: center;
     display: block;
-    width: 50%;
+    border-radius: 50%;
 }
 
 .form {
     flex-grow: 1;
 }
 
-.form__contato {
+.form__perfil {
     background-color: var(--cinza-claro);
     border-radius: 5px;
     color: var(--azul);
@@ -33,8 +34,14 @@
     padding: 1rem 1rem;
 }
 
-.form__contato a {
+.form__perfil a {
     margin: 1rem auto 0;
+}
+
+.form__avatar {
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .form__input {
@@ -57,8 +64,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.contato__texto {
-    padding: 2rem 4rem;
+.perfil__texto {
+    padding: 2rem 3rem;
     text-align: center;
     font-weight: bold;
 }

@@ -7,12 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/perfil.css">
 
     <title>AdoPet - Pets</title>
 </head>
 
-<body class="body-contato">
+<body class="body-perfil">
     <header class="cabecalho">
         <nav class="cabecalho__menu">
             <a href="index.html">
@@ -24,25 +24,28 @@
         </nav>
         <nav class="cabecalho__perfil">
             <a href="perfil.html">
-                <img class="cabecalho__perfil-item" src="assets/img/Usuario.png" alt="Usuario">
+                <img class="cabecalho__perfil-item" src="assets/img/avatar2.JPG" alt="Usuario">
             </a>
         </nav>
     </header>
 
     <main class="form">
 
-        <p class="contato__texto">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
-        <div class="form__contato">
+        <p class="perfil__texto">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+        <div class="form__perfil">
+            <label for="avatar">Foto</label>
+            <img class="form__avatar" src="assets/img/avatar.JPG" alt="Avatar do usuário">
+            <a class="sublinhado_coral" href="#">Clique na foto para editar</a>
             <label for="nome"> Nome </label>
             <input class="form__input" type="text" name="nome" placeholder="Insira seu nome completo">
             <label for="telefone"> Telefone </label>
             <input class="form__input" type="tel" name="telefone" placeholder="Insira seu telefone e/ou whatsapp">
-            <label for="pet"> Nome do Pet </label>
-            <input class="form__input" type="text" name="pet" placeholder="Por qual pet você se interessou">
-            <label for="mensagem"> Mensagem </label>
-            <textarea class="form__textarea" name="mensagem" rows="9" cols="30" placeholder="Escreva sua mensagem"></textarea>
+            <label for="cidade"> Cidade </label>
+            <input class="form__input" type="text" name="cidade" placeholder="Insira o nome da sua cidade">
+            <label for="mensagem"> Sobre </label>
+            <textarea class="form__textarea" name="mensagem" rows="9" cols="30" placeholder="Faça uma descrição"></textarea>
 
-            <a class="botoes botao" href="index.html">Enviar</a>
+            <a class="botoes botao" href="index.html">Salvar</a>
         </div>
 
     </main>
