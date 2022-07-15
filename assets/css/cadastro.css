@@ -10,7 +10,8 @@
     color: var(--cinza);
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 215px);
+    flex-grow: 1;
+    /* height: calc(100vh - 215px); */
     text-align: center;
 }
 

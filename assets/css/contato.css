@@ -1,0 +1,64 @@
+@import url(_reset.css);
+@import url(_styles.css);
+@import url(botao.css);
+@import url(cabecalho.css);
+@import url(form-input.css);
+@import url(rodape.css);
+
+.body-contato {
+    background-image: url(../img/Forma\ 1.svg);
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+}
+
+.cabecalho__perfil-item {
+    align-items: center;
+    display: block;
+    width: 80%;
+}
+
+.form {
+    flex-grow: 1;
+}
+
+.form__contato {
+    background-color: var(--cinza-claro);
+    border-radius: 5px;
+    color: var(--azul);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 1rem 1.5rem;
+    padding: 1rem 1rem;
+}
+
+.form__contato a {
+    margin: 1rem auto 0;
+}
+
+.body-contato:last-child {
+    align-items: center;
+}
+
+.form__input {
+    background-color: var(--cinza-claro2);
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    text-align: left;
+}
+
+.form__textarea {
+    padding: 1rem;
+}
+
+.form__textarea::placeholder {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contato__texto {
+    padding: 2rem 4rem;
+    text-align: center;
+    font-weight: bold;
+}
