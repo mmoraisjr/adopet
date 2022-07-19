@@ -9,7 +9,7 @@
     .body-home {
         background-color: var(--azul);
         background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg), url(../img/Ilustração\ 1.svg);
-        background-position: 0% 0%, 100% 40%, 30% 87%;
+        background-position: 0% 0%, 100% 40%, 50% 87%;
         background-repeat: no-repeat;
     }
 
@@ -25,7 +25,7 @@
 
     .principal__logo {
         margin-top: 4rem;
-        width: 55%;
+        width: 12rem;
     }
 
     .principal__subtitulo {
