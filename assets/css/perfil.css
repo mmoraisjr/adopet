@@ -77,3 +77,9 @@
         background-repeat: no-repeat;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .form__perfil {
+        margin: 1rem 30%;
+    }
+}
