@@ -4,44 +4,41 @@
 @import url(cabecalho.css);
 @import url(botao.css);
 
-@media screen and (min-width: 0) {
+.body-home {
+    background-color: var(--azul);
+    background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg), url(../img/Ilustração\ 1.svg);
+    background-position: 0% 0%, 100% 40%, 50% 87%;
+    background-repeat: no-repeat;
+}
 
-    .body-home {
-        background-color: var(--azul);
-        background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg), url(../img/Ilustração\ 1.svg);
-        background-position: 0% 0%, 100% 40%, 50% 87%;
-        background-repeat: no-repeat;
-    }
+.principal {
+    text-align: center;
+    flex-grow: 1;
+    height: 50vh;
+}
 
-    .principal {
-        text-align: center;
-        flex-grow: 1;
-        height: 50vh;
-    }
+.principal p, h2 {
+    color: var(--cinza-claro2);
+}
 
-    .principal p, h2 {
-        color: var(--cinza-claro2);
-    }
+.principal__logo {
+    margin-top: 4rem;
+    width: 12rem;
+}
 
-    .principal__logo {
-        margin-top: 4rem;
-        width: 12rem;
-    }
+.principal__subtitulo {
+    padding: 1rem 0;
+}
 
-    .principal__subtitulo {
-        padding: 1rem 0;
-    }
+.principal__titulo {
+    padding-top: 1.25rem;
+    font-size: 26px;
+}
 
-    .principal__titulo {
-        padding-top: 1.25rem;
-        font-size: 26px;
-    }
+.principal__ilustracao {
+    padding-top: 30px;
+}
 
-    .principal__ilustracao {
-        padding-top: 30px;
-    }
-
-    footer p {
-        color: var(--cinza-claro2);
-    }
+footer p {
+    color: var(--cinza-claro2);
 }

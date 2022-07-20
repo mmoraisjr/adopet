@@ -24,3 +24,11 @@
 .form__texto {
     padding-bottom: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .body-login{
+    background-image: url(../img/Patas.svg), url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg);
+    background-position: 100% 0%, 0% 0%, 100% 75%;
+    background-repeat: no-repeat;
+    }
+}

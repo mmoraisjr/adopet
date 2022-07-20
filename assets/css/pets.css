@@ -79,6 +79,23 @@
         display: grid;
         grid-gap: 0.5rem;
         grid-template-columns: 1fr 1fr;
-        justify-content: space-around;
+        margin: 0 auto;
+        width: 45rem;
+    }
+
+    .body-pets {
+        background-image: url(../img/Forma\ 1.svg), url(../img/Forma\ 2.svg);
+        background-position: 0% 0%, 100% 50%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .catalogo__grid {
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+        width: 65rem;
     }
 }
